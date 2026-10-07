@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Preparem l'entorn amb els paquets
-        run: pip install requests pandas
+        run: pip install -r requirements.txt
           
       - name: Correm l'script
         run: python ./euro.py
